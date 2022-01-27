@@ -77,7 +77,7 @@ class ActionViewController: UIViewController {
 
   @objc func alertOptions(){
     let alert = UIAlertController(title: "Choose Java Scripts", message: nil, preferredStyle: .alert)
-    alert.addAction(UIAlertAction(title: "Title Alert", style: .default, handler: { [weak self](_) in
+    alert.addAction(UIAlertAction(title: "Use", style: .default, handler: { [weak self](_) in
       self?.script.text = "alert(document.title);"
       self?.done()
     }))
@@ -120,7 +120,7 @@ class ActionViewController: UIViewController {
   // MARK: - Actions
   @IBAction func done() {
     let item = NSExtensionItem()
-    let argument: NSDictionary = ["customJavaScript": script.text as String]
+    let argument: NSDictionary = ["customJavaScript": script.text]
     let webDictionary: NSDictionary = [NSExtensionJavaScriptFinalizeArgumentKey: argument]
     let customJavaScript = NSItemProvider(item: webDictionary, typeIdentifier: kUTTypePropertyList as String)
     item.attachments = [customJavaScript]
