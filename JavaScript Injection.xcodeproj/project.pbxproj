@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36188AA027A2A622005B0682 /* Script.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36188A9F27A2A622005B0682 /* Script.swift */; };
+		36188AA227A2A66D005B0682 /* ScriptsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36188AA127A2A66D005B0682 /* ScriptsTableViewController.swift */; };
+		36188AA427A310E2005B0682 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36188AA327A310E2005B0682 /* Protocol.swift */; };
 		36C8781B2788D14B00BA161C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C8781A2788D14B00BA161C /* AppDelegate.swift */; };
 		36C8781D2788D14B00BA161C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C8781C2788D14B00BA161C /* SceneDelegate.swift */; };
 		36C8781F2788D14B00BA161C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C8781E2788D14B00BA161C /* ViewController.swift */; };
@@ -46,6 +49,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		36188A9F27A2A622005B0682 /* Script.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Script.swift; sourceTree = "<group>"; };
+		36188AA127A2A66D005B0682 /* ScriptsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptsTableViewController.swift; sourceTree = "<group>"; };
+		36188AA327A310E2005B0682 /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
 		36C878172788D14B00BA161C /* JavaScript Injection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JavaScript Injection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36C8781A2788D14B00BA161C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36C8781C2788D14B00BA161C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -131,6 +137,9 @@
 				36C8783B2788D25000BA161C /* MainInterface.storyboard */,
 				36C8783E2788D25000BA161C /* Info.plist */,
 				36C878462788D5A500BA161C /* Action.js */,
+				36188A9F27A2A622005B0682 /* Script.swift */,
+				36188AA127A2A66D005B0682 /* ScriptsTableViewController.swift */,
+				36188AA327A310E2005B0682 /* Protocol.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -249,7 +258,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36188AA027A2A622005B0682 /* Script.swift in Sources */,
 				36C8783A2788D25000BA161C /* ActionViewController.swift in Sources */,
+				36188AA227A2A66D005B0682 /* ScriptsTableViewController.swift in Sources */,
+				36188AA427A310E2005B0682 /* Protocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
