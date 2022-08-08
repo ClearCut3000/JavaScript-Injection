@@ -1,6 +1,6 @@
 # JavaScript-Injection
 
-Tricky project from Hacking with Swift, that creates a bridge between our Swift app and JavaScript running in Safari.
+Tricky project from Hacking with Swift, that creates a bridge between Swift app and JavaScript running in Safari.
 
 
 ![Screenshot001](https://github.com/ClearCut3000/JavaScript-Injection/blob/main/Screenshots/scr001.png?raw=true)
